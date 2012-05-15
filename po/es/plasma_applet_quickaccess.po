@@ -1,0 +1,204 @@
+# Spanish translation for plasma-widget-quickaccess
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the plasma-widget-quickaccess package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-widget-quickaccess\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-04-12 03:44+0000\n"
+"PO-Revision-Date: 2009-04-11 16:41+0000\n"
+"Last-Translator: Paco Molinero <paco@byasl.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-04-20 20:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: label.cpp:44
+msgid "Open"
+msgstr "Abrir"
+
+#: popupdialog.cpp:87
+msgid "Sort by name"
+msgstr "Ordenar por nombre"
+
+#: popupdialog.cpp:90
+msgid "Sort by size"
+msgstr "Ordenar por tamaño"
+
+#: popupdialog.cpp:93
+msgid "Sort by last modified"
+msgstr "Ordenar por última modificación"
+
+#: quickaccess.cpp:207
+msgid ""
+"Sorry, but the \"applications:\" KIO slave is not supported, because it will "
+"crash QuickAccess/Plasma..."
+msgstr ""
+"Lo sentimos pero las «aplicaciones» KIO slave no están soportadas porque "
+"rompen QuickAccess/Plasma..."
+
+#. i18n: file: pluginwidgetbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, PluginWidgetBase)
+#. i18n: file: quickaccessConfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (KTabWidget, QuickAccessConfig)
+#. i18n: file: pluginwidgetbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, PluginWidgetBase)
+#. i18n: file: quickaccessConfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (KTabWidget, QuickAccessConfig)
+#: rc.cpp:3 rc.cpp:6 rc.cpp:84 rc.cpp:87
+msgid "Form"
+msgstr "Formulario"
+
+#. i18n: file: quickaccessConfig.ui:28
+#. i18n: ectx: attribute (title), widget (QWidget, general)
+#: rc.cpp:9 rc.cpp:90
+msgid "General"
+msgstr "General"
+
+#. i18n: file: quickaccessConfig.ui:39
+#. i18n: ectx: property (text), widget (QLabel, selectLabel)
+#: rc.cpp:12 rc.cpp:93
+msgid "Directory:"
+msgstr "Directorio:"
+
+#. i18n: file: quickaccessConfig.ui:62
+#. i18n: ectx: property (text), widget (QLabel, filterLabel)
+#: rc.cpp:15 rc.cpp:96
+msgid "Filters:"
+msgstr "Filtros:"
+
+#. i18n: file: quickaccessConfig.ui:104
+#. i18n: ectx: property (text), widget (QCheckBox, hiddenBox)
+#: rc.cpp:18 rc.cpp:99
+msgid "Show hidden files"
+msgstr "Mostrar archivos ocultos"
+
+#. i18n: file: quickaccessConfig.ui:111
+#. i18n: ectx: property (text), widget (QCheckBox, onlyDirsBox)
+#: rc.cpp:21 rc.cpp:102
+msgid "Show only folders"
+msgstr "Sólo mostrar carpetas"
+
+#. i18n: file: quickaccessConfig.ui:118
+#. i18n: ectx: property (text), widget (QCheckBox, navigationBox)
+#: rc.cpp:24 rc.cpp:105
+msgid "Allow navigation"
+msgstr "Permitir navegación"
+
+#. i18n: file: quickaccessConfig.ui:147
+#. i18n: ectx: attribute (title), widget (QWidget, appearance)
+#: rc.cpp:27 rc.cpp:108
+msgid "Appearance"
+msgstr "Apariencia"
+
+#. i18n: file: quickaccessConfig.ui:170
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:30 rc.cpp:111
+msgid "Custom icon:"
+msgstr "Icono personalizado:"
+
+#. i18n: file: quickaccessConfig.ui:199
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:33 rc.cpp:114
+msgid "Icon SIze:"
+msgstr "Tamaño de icono:"
+
+#. i18n: file: quickaccessConfig.ui:210
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:36 rc.cpp:117
+msgid "16"
+msgstr "16"
+
+#. i18n: file: quickaccessConfig.ui:215
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:39 rc.cpp:120
+msgid "22"
+msgstr "22"
+
+#. i18n: file: quickaccessConfig.ui:220
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:42 rc.cpp:123
+msgid "32"
+msgstr "32"
+
+#. i18n: file: quickaccessConfig.ui:225
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:45 rc.cpp:126
+msgid "48"
+msgstr "48"
+
+#. i18n: file: quickaccessConfig.ui:230
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:48 rc.cpp:129
+msgid "64"
+msgstr "64"
+
+#. i18n: file: quickaccessConfig.ui:235
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:51 rc.cpp:132
+msgid "128"
+msgstr "128"
+
+#. i18n: file: quickaccessConfig.ui:249
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:54 rc.cpp:135
+msgid "View mode:"
+msgstr "Modo de visualización"
+
+#. i18n: file: quickaccessConfig.ui:260
+#. i18n: ectx: property (text), item, widget (QComboBox, viewModeCombo)
+#: rc.cpp:57 rc.cpp:138
+msgid "List mode"
+msgstr "Modo lista"
+
+#. i18n: file: quickaccessConfig.ui:265
+#. i18n: ectx: property (text), item, widget (QComboBox, viewModeCombo)
+#: rc.cpp:60 rc.cpp:141
+msgid "Icon mode"
+msgstr "Modo icono"
+
+#. i18n: file: quickaccessConfig.ui:275
+#. i18n: ectx: property (text), widget (QCheckBox, tooltipBox)
+#: rc.cpp:63 rc.cpp:144
+msgid "Show tooltips"
+msgstr "Mostrar consejos"
+
+#. i18n: file: quickaccessConfig.ui:282
+#. i18n: ectx: property (text), widget (QCheckBox, customLabelBox)
+#: rc.cpp:66 rc.cpp:147
+msgid "Use a custom Label"
+msgstr "Usar una etiqueta personalizada"
+
+#. i18n: file: quickaccessConfig.ui:307
+#. i18n: ectx: property (text), widget (QLabel, customLabel)
+#: rc.cpp:69 rc.cpp:150
+msgid "Label:"
+msgstr "Etiqueta:"
+
+#. i18n: file: quickaccessConfig.ui:357
+#. i18n: ectx: attribute (title), widget (QWidget, preview)
+#: rc.cpp:72 rc.cpp:153
+msgid "Preview"
+msgstr "Vista previa"
+
+#. i18n: file: quickaccessConfig.ui:363
+#. i18n: ectx: property (text), widget (QCheckBox, previewBox)
+#: rc.cpp:75 rc.cpp:156
+msgid "Show Previews"
+msgstr "Mostrar vistas previas"
+
+#. i18n: file: quickaccessConfig.ui:377
+#. i18n: ectx: property (text), widget (QLabel, previewLabel1)
+#: rc.cpp:78 rc.cpp:159
+msgid "Preview plugins:"
+msgstr "Ver complementos:"
+
+#. i18n: file: quickaccessConfig.ui:386
+#. i18n: ectx: property (text), widget (QLabel, previewLabel2)
+#: rc.cpp:81 rc.cpp:162
+msgid "Here you can enable/disable the plugins."
+msgstr "Aquí activa/desactiva los complementos."

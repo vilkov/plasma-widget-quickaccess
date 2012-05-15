@@ -1,0 +1,79 @@
+0.8.2: 
+------
+- added ability to follow the maximum panel icon size
+- added German translation
+- removed all references to dolphin sorting because according to dolphin's maintainer Peter Penz those functions shouldn't be used outside of dolphin. When they change quickaccess widget breaks.
+
+
+0.8.1:
+------
+-Fix a bug where the Dolphin sorting setting wasn't always respected
+-Update default QuickAccess icon for KDE 4.3.
+Dolphin sorting settings
+-New initial translations:
+ +hu, ru (only 19% translated), tr (90% translated) 
+
+0.8:
+----
+-Add simple tooltip for the IconWidget
+-Use settings from Dolphin to determine wether or not to show copy/move to items in the context menu
+-Add option to use sorting settings from Dolphin; patch by mck182
+-Add Single vs Double click setting; patch by mck182
+-Revamp configuration interface. Tabs have been done away with and each tab now has its own section
+-Stylistic/typo fixes for various strings
+-Initially set the icon size to the configured size to avoid supersmall QuickAccess widgets on the desktop
+-Forward-port fix from 0.7.x branch to extract messages from .ui files for .po template generation
+-Add initial translations for: es, fr, gl, pt_BR, sv, and zh_CN languages. Everything except zh_CN should be fairly well translated. (zh_CN is only about 33% translated)
+
+0.7.3:
+------
+-Add Messages.sh so translation templates can be extracted
+
+0.7.2:
+------
+-Port build system to KDE 4.2
+-Port plasma applet to KDE 4.2
+-Fix crash where opening a folder before it was displayed (when popupdialog is first created) causes plasma to crash
+
+0.7.1:
+------
+-fixed a bug which lets quickaccess/plasma crash if you didn't open the popupdialog before a dndevent
+
+0.7:
+----
+-sorting
+-improved selection(by rubberband or shift/ctrl)
+-fixed a bug with invalid urls and changed default path to "~"
+-applet should now save the size if placed on the desktop
+-improved scrollinganimation
+-the popupdialog gets closed when an item in the contexmenu is triggered
+
+0.6.1:
+------
+-fixed a bug with doubleclick settings(thanks for the report painkiller101)
+-fixed a bug where the icon in the panel remains highlighted
+-the listview now has by default keyboard focus
+-changed the width of the text in iconmode
+
+0.6:
+----
+-changed the flipscrollview to an itemview that supports a listmode and an iconmode(idea by Marcel Nowaczyk aka painkiller101)
+-option to disable navigation(clicking on a folder opens dolphin/konqueror)
+-some visual changes(e.g. better readable text with transparent themes)
+
+0.5.2:
+------
+-fixed a bug where the previewimagesize was not updated when the iconsize of the listview changed
+-tooltips are disabled by default
+-little changes in the itemheight
+
+0.5.1:
+------
+-fixed a bug where the text in the listview was drawn under the triangle( thanks to painkiller101 for the hint)
+
+0.5:
+----
+-ToolTip support
+-extracted the resizefunctionality into a base class
+-option to adjust which previewplugins should be used(by default only the imageplugin)
+-some visual "improvements"
