@@ -1,6 +1,8 @@
+add_subdirectory ("de")
 add_subdirectory ("es")
 add_subdirectory ("fr")
 add_subdirectory ("gl")
+add_subdirectory ("nl")
 add_subdirectory ("pt_BR")
 add_subdirectory ("sv")
 add_subdirectory ("tr")
